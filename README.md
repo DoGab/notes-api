@@ -1,6 +1,7 @@
 # notes-api
 
 ![test workflow](https://github.com/dogab/notes-api/actions/workflows/go.yml/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/dogab/notes-api)](https://goreportcard.com/report/github.com/dogab/notes-api)
 
 
 Notes API written in Go using the Fiber web framework
