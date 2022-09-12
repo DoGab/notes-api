@@ -101,7 +101,8 @@ go get  github.com/gofiber/jwt/v3
 
 ## Todos
 
-- [] check how to use secret key as global var, https://stackoverflow.com/questions/35038864/how-to-access-global-variables
+- Update readme with usage and routes
+- check how to use secret key as global var, https://stackoverflow.com/questions/35038864/how-to-access-global-variables
 - check how to embed json with token into other message format: https://github.com/gofiber/fiber/issues/164
 - validator https://www.youtube.com/watch?v=5q_wsashJZA, https://dev.to/koddr/build-a-restful-api-on-go-fiber-postgresql-jwt-and-swagger-docs-in-isolated-docker-containers-475j#folder-with-business-logic-only
 - add swagger docu for endpoints
