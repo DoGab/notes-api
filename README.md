@@ -1,4 +1,8 @@
 # notes-api
+
+![test workflow](https://github.com/dogab/notes-api/actions/workflows/go.yml/badge.svg)
+
+
 Notes API written in Go using the Fiber web framework
 
 - [notes-api](#notes-api)
