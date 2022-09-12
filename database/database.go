@@ -26,8 +26,14 @@ func ConnectDB() {
 	fmt.Println("Connection Opened to Database")
 
 	// Migrate the database
-	DBconn.AutoMigrate(&model.Note{})
-	DBconn.AutoMigrate(&model.User{})
+	err = DBconn.AutoMigrate(&model.Note{})
+	if err != nil {
+		fmt.Printf("Error migration model Note: %s", err)
+	}
+	err = DBconn.AutoMigrate(&model.User{})
+	if err != nil {
+		fmt.Printf("Error migration model User: %s", err)
+	}
 
 	fmt.Println("Database Migrated")
 }
